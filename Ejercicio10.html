@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Clase</title>
+	<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=7AIqNt5hrexv2o31VtOIx1Jl8kikLN1rprxdD4fxsCN0jML44tMNBqIVTG7gCb0lwOGqtHEKCa_c7-KBAEMLZHP3i0p0LhtEgXilyYLgfcBLoYlnq3bJG7sJa8ARzhzH-SFGd2jYOdHOazencpuPuaQ39pYhUqZ50tkmxUWp9gfRJ2tv7nz99Z3Hm3pmChGo" charset="UTF-8"></script><style type="text/css">
+		.super_div{
+			width: 100%;
+			height: 500px;
+			background-color: #D5D8DC;
+		}
+		.mini_div{
+			width: 30%;
+			margin: 1%;
+			border-radius: 5px;
+			border-width: 1px;
+			border-style: solid;
+			border-color: black;
+			height: 300px;
+			float: left;
+		}
+		.formulario{
+			width: 30%;
+			margin: auto;
+			border-radius: 5px;
+			border-width: 1px;
+			border-style: solid;
+			border-color: black;
+			height: 300px;
+			/*float: left;*/ 
+			padding: 1%;
+		}
+		.clase_especial{
+			height: 40px;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="super_div">
+		
+		 
+		<div class="formulario">
+			<form>
+				<fieldset style="margin-top: 10px;">
+					<legend>Datos del formulario</legend>
+
+					<label>
+						Añadir clase:
+					</label>
+					<input  type="text" id="input" name="" value="10">
+
+					<input autofocus type="button" id="boton" value="añadir clase" name="">
+				</fieldset> 
+
+				 
+			</form>
+		</div>
+		
+		
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js">
+
+	
+
+	</script>
+
+	
+	
+	<script type="text/javascript" >
+
+	$( "input" ).first().addClass( "clase_especial" );
+		
+	</script>
+
+ 
+</body>
+</html>
